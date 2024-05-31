@@ -70,7 +70,7 @@ main {
     position:relative;
 }
 .images img {
-    position:100%;
+    width: 100%;
 }
 
 .visible-image {
@@ -93,6 +93,22 @@ main {
 .text-red {
     color: red;
     margin-right: 10px;
+}
+
+.card-badges {
+    display: flex;
+}
+.badge {
+    padding:5px 10px;
+    font-weight: 700;
+    color: #fff;
+}
+.red-badge {
+    background-color: red;
+    margin-right: 5px;
+}
+.green-badge {
+    background-color: green;
 }
 .text-deleted {
     text-decoration: line-through;
