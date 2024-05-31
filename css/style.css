@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing:border-box;
 }
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 header {
-    background-color: rgb(14, 212, 70);
-    padding: 15px 0px;
-
+    background-color: rgb(222, 125, 15);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
   }
+
 /*layout*/
 .container {
     width: 1200px;
@@ -22,12 +26,11 @@ header {
 }
 .content-header {
     margin:10px;
-    height: 50px;
-    background-color:red;
-    border:1px solid black;
+    padding-top: 5px;
+    
 }
 .col-33 {
-        width: calc(100% /3);
+        width: calc(100%/3);
         
 }
 
@@ -36,4 +39,37 @@ header {
     height: 300px;
     background-color:red;
     border:1px solid black;
+}
+
+/*page style*/
+.list-unstiled {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.list-unstiled li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.list-unstiled li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.content-header img {
+    width: 100px;
+}
+
+.content-header i {
+    color:#fff;
+    margin: 0px 5px;
+}
+/*utility classes*/
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align:right;
 }
