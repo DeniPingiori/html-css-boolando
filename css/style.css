@@ -38,6 +38,7 @@ main {
 
 .content {
     margin:10px;
+    position:relative;
 }
 
 /*page style*/
@@ -94,9 +95,20 @@ main {
     color: red;
     margin-right: 10px;
 }
+.heart {
+    padding: 5px 10px;
+    background-color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top:5px;
+    right: 0;
 
+}
 .card-badges {
     display: flex;
+    position: absolute;
+    left: 0;
+    bottom:20px;
 }
 .badge {
     padding:5px 10px;
@@ -109,6 +121,12 @@ main {
 }
 .green-badge {
     background-color: green;
+}
+.images:hover .visible-image {
+    display:none;
+}
+.images:hover .hidden-image {
+    display:block;
 }
 .text-deleted {
     text-decoration: line-through;
