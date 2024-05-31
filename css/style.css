@@ -1,18 +1,17 @@
 * {
     margin:0;
     padding: 0;
-    box-sizing:border-box
+    box-sizing:border-box;
 }
 
 header {
     background-color: rgb(14, 212, 70);
-    padding: 15px;
+    padding: 15px 0px;
 
   }
-
+/*layout*/
 .container {
-    width: 1000px;
-    background-color: rgb(17, 0, 255);
+    width: 1200px;
     padding: 15px 0; 
    
 }
@@ -21,10 +20,20 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
+.content-header {
+    margin:10px;
+    height: 50px;
+    background-color:red;
+    border:1px solid black;
+}
+.col-33 {
+        width: calc(100% /3);
+        
+}
 
-.col-15 {
-        width: 200px;
-        height: 75px;
-        background-color: rgb(225, 110, 16);
-        border:1px solid rgb(0, 0, 0);
+.content {
+    margin:10px;
+    height: 300px;
+    background-color:red;
+    border:1px solid black;
 }
