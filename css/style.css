@@ -15,6 +15,12 @@ header {
 main {
     padding-top: 70px;
 }
+footer {
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+  }
+
 /*layout*/
 .container {
     width: 1200px;
@@ -29,6 +35,20 @@ main {
 .content-header {
     margin:10px;
     padding-top: 5px;
+    
+}
+.content-footer {
+    margin:10px;
+    padding-top: 5px;
+    align-content: center;
+    
+}
+.col-60 {
+    width: calc(60%);
+    
+}
+.col-40 {
+    width: calc(40%);
     
 }
 .col-33 {
@@ -57,6 +77,22 @@ main {
     font-weight: 600;
     color: white;
 }
+
+.list-footer {
+    list-style-type: none;
+    padding-top: 5px;
+}
+.list-footer li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.list-footer li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
 
 .content-header img {
     width: 100px;
